@@ -37,10 +37,6 @@
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-prettier": "^1.1.2",
     "stylelint-processor-styled-components": "^1.10.0"
-<<<<<<< HEAD
   },
   "gitHead": "25b1daca3faaa97f7ca50495103710fd6e129465"
-=======
-  }
->>>>>>> 25b1daca3faaa97f7ca50495103710fd6e129465
 }
