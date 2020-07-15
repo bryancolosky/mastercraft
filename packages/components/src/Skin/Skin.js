@@ -1,7 +1,7 @@
 // 🔌 Vendor
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
-import styled, { ThemeProvider, createGlobalStyle } from 'styled-components'
+import { ThemeProvider, createGlobalStyle } from 'styled-components'
 
 // ⚙️ Configs
 import {
@@ -24,12 +24,12 @@ export const Tokens = {
 export const Stylesheet = createGlobalStyle`
   :root {
     --color-text-primary: ${({ theme }) => theme.main.colorTextPrimary};
+    ${getStyles};
   }
 `
 
 Stylesheet.propTypes = {
-  theme: PropTypes.object,
-  children: PropTypes.node
+  theme: PropTypes.object
 }
 
 Stylesheet.defaultProps = {
@@ -40,12 +40,14 @@ Stylesheet.displayName = 'Stylesheet'
 
 // 🧰 Element
 const Skin = ({
-  children
+  id,
+  children,
+  skin = SKIN.STYLES
 }) => {
   return (
     <Fragment>
       <Stylesheet />
-      <ThemeProvider theme={{ main: tokens }}>
+      <ThemeProvider skin={skin} theme={{ main: tokens }}>
         {children}
       </ThemeProvider>
     </Fragment>
@@ -53,11 +55,15 @@ const Skin = ({
 }
 
 Skin.propTypes = {
-  children: PropTypes.node
+  id: PropTypes.string,
+  children: PropTypes.node,
+  skin: PropTypes.oneOf(Object.values(SKIN))
 }
 
 Skin.defaultProps = {
-  children: PropTypes.node
+  id: PropTypes.string,
+  children: PropTypes.node,
+  skin: PropTypes.object.isRequired
 }
 
 Skin.displayName = 'Skin'

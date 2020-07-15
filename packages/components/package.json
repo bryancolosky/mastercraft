@@ -1,6 +1,6 @@
 {
   "name": "@studiocraft/components",
-  "version": "1.0.0",
+  "version": "0.0.1-rc.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -38,5 +38,5 @@
     "stylelint-prettier": "^1.1.2",
     "stylelint-processor-styled-components": "^1.10.0"
   },
-  "dependencies": {}
+  "gitHead": "25b1daca3faaa97f7ca50495103710fd6e129465"
 }

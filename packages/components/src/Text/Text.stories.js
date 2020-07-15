@@ -1,6 +1,6 @@
 // 🔌 Vendor
 import React from 'react'
-import { text, boolean, select } from '@storybook/addon-knobs'
+import { text, select } from '@storybook/addon-knobs'
 
 // ⚙️ Configs
 import {

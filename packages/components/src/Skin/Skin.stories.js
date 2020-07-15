@@ -1,6 +1,6 @@
 // 🔌 Vendor
 import React from 'react'
-import { text } from '@storybook/addon-knobs'
+import { select } from '@storybook/addon-knobs'
 
 // ⚙️ Configs
 import {
@@ -17,8 +17,8 @@ export default {
 }
 
 export const Skins = () => {
-  const loremIpsum = text('Stylesheet')
+  const skin = select('Skin', Object.values(SKIN), SKIN.STYLES)
   return (
-    <Skin />
+    <Skin skin={skin} />
   )
 }
