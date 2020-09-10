@@ -1,0 +1,35 @@
+{
+  "name": "@studiocraft/foundations",
+  "version": "0.0.0",
+  "description": "All the foundation styles for the 🧪 Mastercraft Design System",
+  "author": "Bryan Colosky <bryancolosky@users.noreply.github.com>",
+  "homepage": "https://github.com/bryancolosky/mastercraft#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryancolosky/mastercraft.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:styles": "stylelint './src/**/*.{css,js}'",
+    "build": "npx babel src --out-dir dist --copy-files",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/bryancolosky/mastercraft/issues"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "eslint": "^7.8.1",
+    "prettier": "^2.1.1",
+    "style-dictionary": "^2.10.1",
+    "stylelint": "^13.7.0",
+    "stylelint-prettier": "^1.1.2"
+  }
+}
