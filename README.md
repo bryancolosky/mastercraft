@@ -1,27 +1,84 @@
 # 🧪 Mastercraft
 
-**A design system — made with ❤️ and ☕️ — by Studiocraft.**
+Mastercraft is a design system crafted by a joint set of visual styles, components, and design assets extended continuously across all digital touch-points.
 
-## Development
+![GitHub](https://img.shields.io/github/license/bryancolosky/mastercraft)
 
-### Lerna
+**Built on a MacBook 💻 — assembled with ❤️ and powered by ☕️ – enjoy! 👍**
 
-**Lint npm modules in workspaces**
+## Overview 📒
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/bryancolosky/mastercraft)
+![GitHub language count](https://img.shields.io/github/languages/count/bryancolosky/mastercraft)
+![GitHub top language](https://img.shields.io/github/languages/top/bryancolosky/mastercraft)
+
+### Usage 📦
+
+#### Visual foundations 🎨
+
+[Getting Started](https://github.com/bryancolosky/mastercraft/blob/master/packages/foundations/README.md)
+
+**Project Directory**
+
+```.
+├── src
+│   ├── Color
+│   │   └── index.js
+│   └── Size
+│       └── index.js
+├── index.js
+├── package.json
+└── README.md
+```
+
+**npm**
+
+[`@studiocraft/foundations`](https://www.npmjs.com/package/@studiocraft/foundations)
+
+#### React components ⚛️
+
+[![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components)
+
+[Getting Started](https://github.com/bryancolosky/mastercraft/blob/master/packages/components/README.md)
+
+**Project Directory**
+
+```
+.
+├── src
+│   └── Text
+│       └── index.js
+├── index.js
+├── package.json
+└── README.md
+```
+
+**npm**
+
+[`@studiocraft/components`](https://www.npmjs.com/package/@studiocraft/components)
+
+### Development 🛠
+
+#### Lerna 🐉
+
+![Github lerna version](https://img.shields.io/github/lerna-json/v/bryancolosky/mastercraft)
+
+**Lint packages in workspace**
 
 `lerna run lint`
 
-**Lint style npm modules in workspaces**
+**Lint style packages in workspace**
 
 `lerna run lint:styles`
 
-**Build npm modules in workspaces**
+**Build packages in workspace**
 
 `lerna run build`
 
-**Add npm module to workspaces**
+**Add package to workspace**
 
 `lerna add PACKAGE --scope=PACKAGE`
 
-**Delete npm module from workspaces**
+**Delete package from workspace**
 
 `lerna exec --yarn remove PACKAGE --scope=@org/PACKAGE`
