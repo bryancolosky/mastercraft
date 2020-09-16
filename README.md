@@ -4,8 +4,6 @@ Mastercraft is a design system crafted by a joint set of visual styles, componen
 
 ![GitHub](https://img.shields.io/github/license/bryancolosky/mastercraft)
 
-**Built on a MacBook 💻 — assembled with ❤️ and powered by ☕️ – enjoy! 👍**
-
 ## Overview 📒
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/bryancolosky/mastercraft)
@@ -16,11 +14,10 @@ Mastercraft is a design system crafted by a joint set of visual styles, componen
 
 #### Visual foundations 🎨
 
-[Getting Started](https://github.com/bryancolosky/mastercraft/blob/master/packages/foundations/README.md)
-
 **Project Directory**
 
-```.
+```
+.
 ├── src
 │   ├── Color
 │   │   └── index.js
@@ -31,6 +28,8 @@ Mastercraft is a design system crafted by a joint set of visual styles, componen
 └── README.md
 ```
 
+[Get Started](https://github.com/bryancolosky/mastercraft/blob/master/packages/foundations/README.md)
+
 **npm**
 
 [`@studiocraft/foundations`](https://www.npmjs.com/package/@studiocraft/foundations)
@@ -38,8 +37,6 @@ Mastercraft is a design system crafted by a joint set of visual styles, componen
 #### React components ⚛️
 
 [![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components)
-
-[Getting Started](https://github.com/bryancolosky/mastercraft/blob/master/packages/components/README.md)
 
 **Project Directory**
 
@@ -52,6 +49,8 @@ Mastercraft is a design system crafted by a joint set of visual styles, componen
 ├── package.json
 └── README.md
 ```
+
+[Get Started](https://github.com/bryancolosky/mastercraft/blob/master/packages/components/README.md)
 
 **npm**
 
