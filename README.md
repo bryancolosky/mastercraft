@@ -1,6 +1,6 @@
 # 🧪 Mastercraft
 
-Mastercraft is a design system crafted by a joint set of visual styles, components, and design assets extended continuously across all digital touch-points.
+Mastercraft is a design system crafted by a joint set of visual styles, components, and assets extended continuously across all digital touch-points.
 
 ![GitHub](https://img.shields.io/github/license/bryancolosky/mastercraft)
 
@@ -28,11 +28,9 @@ Mastercraft is a design system crafted by a joint set of visual styles, componen
 └── README.md
 ```
 
-[Get Started](https://github.com/bryancolosky/mastercraft/blob/master/packages/foundations/README.md)
+[View Project](https://github.com/bryancolosky/mastercraft/blob/master/packages/foundations/README.md)
 
-**npm**
-
-[`@studiocraft/foundations`](https://www.npmjs.com/package/@studiocraft/foundations)
+**npm**: [`@studiocraft/foundations`](https://www.npmjs.com/package/@studiocraft/foundations)
 
 #### React components ⚛️
 
@@ -50,11 +48,9 @@ Mastercraft is a design system crafted by a joint set of visual styles, componen
 └── README.md
 ```
 
-[Get Started](https://github.com/bryancolosky/mastercraft/blob/master/packages/components/README.md)
+[View Project](https://github.com/bryancolosky/mastercraft/blob/master/packages/components/README.md)
 
-**npm**
-
-[`@studiocraft/components`](https://www.npmjs.com/package/@studiocraft/components)
+**npm**: [`@studiocraft/components`](https://www.npmjs.com/package/@studiocraft/components)
 
 ### Development 🛠
 
