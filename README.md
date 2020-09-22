@@ -21,6 +21,8 @@ Mastercraft is a design system crafted by a joint set of visual styles, componen
 ├── src
 │   ├── Color
 │   │   └── index.js
+│   ├── Font
+│   │   └── index.js
 │   └── Size
 │       └── index.js
 ├── index.js
@@ -56,7 +58,14 @@ Mastercraft is a design system crafted by a joint set of visual styles, componen
 
 [`@studiocraft/components`](https://www.npmjs.com/package/@studiocraft/components)
 
+------------
+
 ### Development 🛠
+
+#### Yarn 🧶
+**Install command line interface**
+
+`brew install yarn`
 
 #### Lerna 🐉
 
