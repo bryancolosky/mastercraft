@@ -1,6 +1,6 @@
 {
   "name": "@studiocraft/components",
-  "version": "0.0.0-rc.2",
+  "version": "0.0.0-rc.3",
   "description": "All the components for the 🧪 Mastercraft Design System",
   "author": "Bryan Colosky <bryancolosky@users.noreply.github.com>",
   "homepage": "https://github.com/bryancolosky/mastercraft#readme",
@@ -27,7 +27,7 @@
     "@babel/core": "^7.11.6",
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.12.10",
-    "@studiocraft/foundations": "^0.0.0-rc.2",
+    "@studiocraft/foundations": "^0.0.0-rc.3",
     "eslint": "^7.8.1",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",
