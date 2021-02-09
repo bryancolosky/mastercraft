@@ -8,8 +8,8 @@
 
 import React from "react"
 
-import App from "./src/components/App"
+import { Root } from "@studiocraft/components"
 
 export const wrapRootElement = ({ element }) => {
-  return <App>{element}</App>
+  return <Root>{element}</Root>
 }

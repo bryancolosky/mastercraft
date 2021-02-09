@@ -1,9 +1,28 @@
 {
   "name": "@studiocraft/gatsby",
-  "private": true,
-  "description": "Bryan Colosky's Portfolio — 🛠 Handcrafted with Gatsby",
   "version": "0.1.1-alpha.0",
-  "author": "Bryan Colosky <bryan.colosky@gmail.com>",
+  "description": "Bryan Colosky's Portfolio — 🛠 Handcrafted with Gatsby",
+  "author": "Bryan Colosky <bryancolosky@users.noreply.github.com>",
+  "homepage": "https://github.com/bryancolosky/mastercraft#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryancolosky/mastercraft.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/bryancolosky/mastercraft/issues"
+  },
   "dependencies": {
     "@studiocraft/components": "^0.0.0-rc.3",
     "babel-plugin-styled-components": "^1.12.0",
@@ -16,35 +35,13 @@
     "gatsby-plugin-styled-components": "^3.7.0",
     "gatsby-source-filesystem": "^2.5.0",
     "gatsby-transformer-sharp": "^2.6.0",
+    "prettier": "^2.2.1",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "styled-components": "^5.2.1",
     "terser": "^4.6.11"
-  },
-  "devDependencies": {
-    "prettier": "2.1.2"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "0BSD",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "peerDependencies": {
     "react-is": "^17.0.1",

@@ -9,12 +9,13 @@ import React from "react"
 import Terser from "terser"
 
 import {
-  COLOR_MODE_KEY,
   COLORS,
+  COLOR_MODE_KEY,
   INITIAL_COLOR_MODE_CSS_PROP,
-} from "./src/constants"
+} from "@studiocraft/foundations"
 
-import App from "./src/components/App"
+import { Root } from "@studiocraft/components"
+import { Theme } from "@studiocraft/components"
 
 function setColorsByTheme() {
   const colors = "🖍"
@@ -75,7 +76,7 @@ const FallbackStyles = () => {
     --color-background: white;`
   */
 
-  const cssVariableString = Object.entries(COLORS).reduce(
+  const cssVariableString = Object.entries(COLORS()).reduce(
     (acc, [name, colorByTheme]) => {
       return `${acc}\n--color-${name}: ${colorByTheme.light};`
     },
@@ -93,5 +94,5 @@ export const onRenderBody = ({ setPreBodyComponents, setHeadComponents }) => {
 }
 
 export const wrapPageElement = ({ element }) => {
-  return <App>{element}</App>
+  return <Root>{element}</Root>
 }
